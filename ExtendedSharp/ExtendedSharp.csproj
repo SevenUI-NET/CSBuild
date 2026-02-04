@@ -11,7 +11,7 @@
         <PackageVersion>1.0.0</PackageVersion>
         <PackageDescription>CSBuild - Inline XML to strongly-typed C# code generator</PackageDescription>
         <PackageOutputPath>nupkg</PackageOutputPath>
-        <PackageReadmeFile>../README.md</PackageReadmeFile>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
     </PropertyGroup>
 
