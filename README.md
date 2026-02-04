@@ -94,7 +94,7 @@ CSBuild is a **C# code generation tool** that turns **inline XML component synta
 1. Install CSBuild:
 
    ```bash
-   dotnet tool install --global CSBuild
+   dotnet tool install --global ExtendedSharp
    ```
 
 2. Create a component `.xcs` file using inline XML.

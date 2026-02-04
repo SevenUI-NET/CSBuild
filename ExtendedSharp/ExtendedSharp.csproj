@@ -16,7 +16,9 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Generated\Examples\" />
+        <None Include="README.md" Pack="true" PackagePath="" />
+        <Folder Include="Generated\Examples\" />
+        <Folder Include="nupkg\" />
     </ItemGroup>
 
 </Project>

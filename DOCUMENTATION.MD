@@ -12,10 +12,10 @@ Instead of writing chain after chain of factory method calls, you write clean, e
 
 ```bash
 # Install globally
-dotnet tool install --global CSBuild
+dotnet tool install --global ExtendedSharp
 
 # Or install locally
-dotnet tool install CSBuild
+dotnet tool install ExtendedSharp
 ````
 
 ---
