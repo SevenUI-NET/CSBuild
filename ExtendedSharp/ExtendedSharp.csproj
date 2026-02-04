@@ -5,6 +5,14 @@
         <TargetFramework>net9.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <PackAsTool>true</PackAsTool>
+        <ToolCommandName>csbuild</ToolCommandName>
+        <Authors>SevenUI</Authors>
+        <PackageVersion>1.0.0</PackageVersion>
+        <PackageDescription>CSBuild - Inline XML to strongly-typed C# code generator</PackageDescription>
+        <PackageOutputPath>nupkg</PackageOutputPath>
+        <PackageReadmeFile>../README.md</PackageReadmeFile>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
     </PropertyGroup>
 
     <ItemGroup>
