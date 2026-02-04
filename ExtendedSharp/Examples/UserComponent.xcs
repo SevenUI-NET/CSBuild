@@ -1,0 +1,27 @@
+﻿namespace SevenUI.ExtendedSharp.Examples;
+
+public struct UserComponentProps
+{
+
+}
+
+public static class Component
+{
+	public static Node UserComponent = (props, children) => {
+
+        var user = UseAsync(() => SomeAsyncTask());        
+
+        if ( !user.IsCompleted() )
+        {
+            return (
+                <Loading />
+            );
+        }
+
+        return (
+            <div id={"user-" + user.Id} className="application">
+                <p>Hello {user.Name}, you have {messageCount} messages</p>
+            </div>
+        );
+    };
+}
